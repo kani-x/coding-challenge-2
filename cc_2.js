@@ -35,3 +35,15 @@ customers.push({ name: "Emily Davis", email: "emily@example.com", purchaseAmount
 
 console.log("Customer list:", customers);
 
+let order = {
+    orderId: 12345,
+    customerName: "Michael Scott",
+    amount: 500,
+    calculateTax: function () {
+        return this.amount * 0.1; // 10% tax
+    }
+};
+
+console.log("Order details:", order);
+console.log("Tax amount:", order.calculateTax());
+
