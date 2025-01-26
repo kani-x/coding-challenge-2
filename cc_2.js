@@ -14,3 +14,14 @@ let average = sum / scores.length;
 
 console.log("Updated scores:", scores);
 console.log("Average score:", average);
+
+let employee = {
+    name: "Alice",
+    age: 30,
+    department: "HR",
+    isActive: true
+};
+employee.department = "IT"; 
+employee.position = "Team Lead"; 
+
+console.log("Updated employee:", employee);
