@@ -25,3 +25,13 @@ employee.department = "IT";
 employee.position = "Team Lead"; 
 
 console.log("Updated employee:", employee);
+
+let customers = [
+    { name: "John Doe", email: "john@example.com", purchaseAmount: 150 },
+    { name: "Jane Smith", email: "jane@example.com", purchaseAmount: 200 },
+    { name: "Sam Wilson", email: "sam@example.com", purchaseAmount: 300 }
+];
+customers.push({ name: "Emily Davis", email: "emily@example.com", purchaseAmount: 250 });
+
+console.log("Customer list:", customers);
+
